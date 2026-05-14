@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveEase | Premium Car Rentals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans leading-normal tracking-normal">
+
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between px-10 py-6 bg-white shadow-sm fixed w-full z-50">
+        <div class="text-2xl font-bold text-blue-600 tracking-tighter">
+            <i class="fas fa-car-side mr-2"></i>DRIVE<span class="text-gray-800">EASE</span>
+        </div>
+        <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+            <a href="#" class="hover:text-blue-600 transition">Home</a>
+            <a href="#" class="hover:text-blue-600 transition">Fleet</a>
+            <a href="#" class="hover:text-blue-600 transition">Deals</a>
+            <a href="#" class="hover:text-blue-600 transition">Contact</a>
+        </div>
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition">
+            Login
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-blue-50">
+        <div class="container mx-auto px-6 lg:flex items-center">
+            <div class="lg:w-1/2">
+                <h1 class="text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-tight">
+                    Premium Cars for <br> Your <span class="text-blue-600">Next Journey.</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-8 max-w-md">
+                    Experience freedom on the road with our diverse fleet of luxury sedans, rugged SUVs, and efficient city cars.
+                </p>
+                
+                <!-- Simple Booking Widget -->
+                <div class="bg-white p-6 rounded-xl shadow-xl lg:mr-10">
+                    <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-bold mb-1 text-gray-700">Pickup Location</label>
+                            <input type="text" placeholder="City or Airport" class="w-full border rounded-lg px-4 py-2 focus:outline-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-1 text-gray-700">Car Type</label>
+                            <select class="w-full border rounded-lg px-4 py-2 focus:outline-blue-500">
+                                <option>Economy</option>
+                                <option>SUV</option>
+                                <option>Luxury</option>
+                            </select>
+                        </div>
+                        <div class="md:col-span-2">
+                            <button class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition">
+                                Find My Car
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Hero Image Replacement -->
+            <div class="lg:w-1/2 mt-12 lg:mt-0">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800" alt="Rental Car" class="rounded-3xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800">Why Choose Us?</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Fully Insured</h3>
+                    <p class="text-gray-600">Drive with peace of mind knowing you're covered by our premium protection plans.</p>
+                </div>
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">24/7 Support</h3>
+                    <p class="text-gray-600">Our roadside assistance and customer support team are always just a call away.</p>
+                </div>
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Best Price Guarantee</h3>
+                    <p class="text-gray-600">Find a lower price elsewhere? We'll match it and give you an extra 10% off.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2026 DriveEase Car Rentals. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
